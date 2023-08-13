@@ -9,9 +9,9 @@ In the next phase, I took my server to the next level by adding multi-threading 
 
 This project will focus on a few important systems programming topics:
 
-  TCP server socket setup and initialization with `socket()`, `bind()`, and `listen()`
-  Server-side TCP communication with `accept()` followed by `read()` and `write()`
-  `HTTP request` parsing and response generation
-  Clean server termination through signal handling
-  Thread creation and management with `pthread_create()` and `pthread_join()`
-  Implementation of a thread-safe queue data structure with the pthread_mutex_t and pthread_cond_t primitives
+    TCP server socket setup and initialization with socket(), bind(), and listen()
+    Server-side TCP communication with accept() followed by read() and write()
+    HTTP request parsing and response generation
+    Clean server termination through signal handling
+    Thread creation and management with pthread_create() and pthread_join()
+    Implementation of a thread-safe queue data structure with the pthread_mutex_t and pthread_cond_t primitives
